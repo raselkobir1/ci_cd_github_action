@@ -9,11 +9,9 @@ You can run this application from anywhere using **Google Cloud Shell** or any s
 ### **1️⃣ Open Google Cloud Shell**  
 Visit: [Google Cloud Shell](https://shell.cloud.google.com)  
 
-### **2️⃣ Pull the Docker Image**  
+### **2️⃣ Pull the Docker Image and Run**  
 Run the following command to pull the latest Docker image from **Docker Hub**:  
 ```sh
 docker pull raselkabir7868/ci_cd_github_action:latest
-
-### ** 3 Run the Docker Container
 docker run --rm raselkabir7868/ci_cd_github_action
 
